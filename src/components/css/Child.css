@@ -1,0 +1,49 @@
+.componentChild{
+  width: 100%;
+  height: auto;
+  background-color: rgb(72, 118, 104);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  }
+
+  .componentChild h2{
+    width: 100%;
+    text-transform: none;
+    letter-spacing: 1px;
+    border-bottom:1px solid rgb(255 255 255 / 22%);
+    margin: 0 0 16px 0;
+    padding: 10px 0 10px 0;
+    color: #142620;
+  }
+
+  .componentChild__btn{
+    display: block;
+    width: 100%;
+    max-width: 90%;
+    padding: 10px;
+    margin:0;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #29423b;
+    color: #fff;
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 40%);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  
+  .componentChild__btn:hover{
+    background: #1c322c;
+  }
+
+  p{
+    border-radius: 10px;
+    padding: 1rem;
+    background: rgba(255,255,255,0.5);
+  }
